@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "29872536"))
+API_HASH = getenv("API_HASH", "65e1f714a47c0879734553dc460e98d6")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "6734902479:AAEynlAKSIag6qcbvdePR2nWip2eCx8HVZY")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kratosaurus69:kratosaurus69@cluster0.cee70.mongodb.net/")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002183841044")
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("OWNER_ID", "6698364560")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,26 +32,26 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/CyberPixelPro/AviaxMusic",
+    "https://github.com/nxivm-bots/nezuko",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NexGenBots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/NexGenSpam")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AlcyoneBots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Alcyone_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 # make your bots privacy from telegra.ph and put your url here 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-AviaxMusic-08-14")
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "fcc60046623448ac8aec5ec95c4d2578")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "ddbb914ec49c48b88375f690cf40157c")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQDNvmIApP_Y8qLQFxQHf18xN-Aw7wZizMtuuIrZg9KfTZEzWajr1W9FBb16TJiz_kUsD1Ekn80qkNxI2TWCwxVq8PZFAON55ycX7YvijiPjGyqCHh-QM1XHSPnOEb6o2TRsaF7KDIMa6y9by1Wh1iYEKZDDuYsmsSHJWAnoMq1Qh8OEc2g6sz-oenZ7IRa5CYQ_mqRL-rRFd0lbb_KmRCmQTR-mO1kPup8BG-wddVMGtt9-0ekV1u2vxJI20n3ioUfFlHEgYFuOuSpWbtf-6UTUvqnFxXckwlNkcCXh9eBfIMUCKBBn99aKev9D56wkVPETcb-PnD3QFFNwl9woe9F886p7gQAAAAGuXxu2AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -81,21 +81,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org//file/25115719697ed91ef5672.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/4eda7a9d6cff0410d3416.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png"
+    "PING_IMG_URL", "https://telegra.ph/file/3dfde0d5d13f8532cb7ca.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
-STATS_IMG_URL = "https://graph.org//file/99a8a9c13bb01f9ac7d98.png"
-TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
 
 
 def time_to_seconds(time):
