@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH", "65e1f714a47c0879734553dc460e98d6")
 BOT_TOKEN = getenv("BOT_TOKEN", "7465723607:AAGw0JGtHxQrTTU9u4ivlSjgshr4I-ZvDcw")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kratosaurus69:kratosaurus69@cluster0.cee70.mongodb.net/")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://gay:gay@cluster0.wthde.mongodb.net/")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://telegra.ph/file/10ff00d4d5de41df66446.jpg",
+    "",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
