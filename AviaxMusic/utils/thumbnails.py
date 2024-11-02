@@ -3,7 +3,7 @@ import os
 async def gen_thumb(videoid: str):
     try:
         # Specify the path to your custom image
-        custom_image_path = "AviaXMusic/assets/shenhe.png"
+        custom_image_path = "AviaxMusic/assets/shenhe.png"
         
         # Ensure the image file exists
         if not os.path.isfile(custom_image_path):
