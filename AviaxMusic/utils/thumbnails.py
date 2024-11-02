@@ -8,6 +8,7 @@ async def gen_thumb(videoid: str):
             return f"cache/{videoid}_v4.png"
 
         default_thumbnail_path = "AviaxMusic/assets/shenhe.png"
+        
         youtube = Image.open(default_thumbnail_path)
 
         background_path = f"cache/{videoid}_v4.png"
