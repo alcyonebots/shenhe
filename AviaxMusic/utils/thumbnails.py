@@ -7,7 +7,7 @@ async def gen_thumb(videoid: str):
         if os.path.isfile(f"cache/{videoid}_v4.png"):
             return f"cache/{videoid}_v4.png"
 
-        default_thumbnail_path = AviaXMusic/assests/shenhe.png"  # Change this to your default image path
+        default_thumbnail_path = AviaXMusic/assets/shenhe.png"  # Change this to your default image path
         # Open the default thumbnail
         youtube = Image.open(default_thumbnail_path)
 
