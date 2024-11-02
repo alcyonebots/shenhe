@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/nxivm-bots/nezuko.git",
+    "https://github.com/nxivm-bots/shenhe.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -81,21 +81,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/4eda7a9d6cff0410d3416.jpg"
+    "START_IMG_URL", "https://i.ibb.co/T4P3TGM/file-1060.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/3dfde0d5d13f8532cb7ca.jpg"
+    "PING_IMG_URL", "https://i.ibb.co/T4P3TGM/file-1060.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/10ff00d4d5de41df66446.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/T4P3TGM/file-1060.jpg"
+STATS_IMG_URL = "https://i.ibb.co/T4P3TGM/file-1060.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/T4P3TGM/file-1060.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/T4P3TGM/file-1060.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/T4P3TGM/file-1060.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/T4P3TGM/file-1060.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/T4P3TGM/file-1060.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/T4P3TGM/file-1060.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/T4P3TGM/file-1060.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/T4P3TGM/file-1060.jpg"
 
 
 def time_to_seconds(time):
