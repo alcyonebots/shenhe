@@ -1,17 +1,17 @@
 import os
-
+import logging
+from PIL import Image
 async def gen_thumb(videoid: str):
     try:
-        # Specify the path to your custom image
-        custom_image_path = "AviaxMusic/assets/shenhe.png"
-        
-        # Ensure the image file exists
-        if not os.path.isfile(custom_image_path):
-            raise FileNotFoundError(f"Custom image not found at {custom_image_path}")
-
-        # Return the path to your custom image
-        return custom_image_path
-
+        if os.path.isfile(f"cache/{videoid}_v4.png"):
+            return f"cache/{videoid}_v4.png"
+        default_thumbnail_path = "AviaxMusic/assets/shenhe.png"  # Change this to your default image path
+        # Open the default thumbnail
+        youtube = Image.open(default_thumbnail_path)
+        # Save the thumbnail directly without any modifications
+        background_path = f"cache/{videoid}_v4.png"
+        youtube.save(background_path)
+        return background_path
     except Exception as e:
-        logging.error(f"Error fetching custom thumbnail for video {videoid}: {e}")
+        logging.exception(f"Error generating thumbnail for video {videoid}: {e}")
         return None
