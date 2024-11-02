@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH", "65e1f714a47c0879734553dc460e98d6")
 BOT_TOKEN = getenv("BOT_TOKEN", "7939429941:AAEuWc7HctZyOtkcOyr4DxzbZOmZOLzOky4")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://gay:gay@cluster0.wthde.mongodb.net/")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://shenhe:shenhe@telegram.ysvwj.mongodb.net/?retryWrites=true&w=majority&appName=telegram")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
