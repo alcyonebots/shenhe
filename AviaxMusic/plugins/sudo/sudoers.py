@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.database import add_sudo, remove_sudo
-from AviaxMusic.utils.decorators.language import language
-from AviaxMusic.utils.extraction import extract_user
-from AviaxMusic.utils.inline import close_markup
+from ShenheMusic import app
+from ShenheMusic.misc import SUDOERS
+from ShenheMusic.utils.database import add_sudo, remove_sudo
+from ShenheMusic.utils.decorators.language import language
+from ShenheMusic.utils.extraction import extract_user
+from ShenheMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 

@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.utils import bot_sys_stats
-from AviaxMusic.utils.decorators.language import language
-from AviaxMusic.utils.inline import supp_markup
+from ShenheMusic import app
+from ShenheMusic.core.call import Aviax
+from ShenheMusic.utils import bot_sys_stats
+from ShenheMusic.utils.decorators.language import language
+from ShenheMusic.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 

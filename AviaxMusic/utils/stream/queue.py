@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from AviaxMusic.misc import db
-from AviaxMusic.utils.formatters import check_duration, seconds_to_min
+from ShenheMusic.misc import db
+from ShenheMusic.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 

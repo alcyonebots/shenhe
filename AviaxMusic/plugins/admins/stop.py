@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.utils.database import set_loop
-from AviaxMusic.utils.decorators import AdminRightsCheck
-from AviaxMusic.utils.inline import close_markup
+from ShenheMusic import app
+from ShenheMusic.core.call import Aviax
+from ShenheMusic.utils.database import set_loop
+from ShenheMusic.utils.decorators import AdminRightsCheck
+from ShenheMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

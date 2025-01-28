@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from AviaxMusic import LOGGER, YouTube, app
-from AviaxMusic.misc import db
-from AviaxMusic.utils.database import (
+from ShenheMusic import LOGGER, YouTube, app
+from ShenheMusic.misc import db
+from ShenheMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from AviaxMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from AviaxMusic.utils.exceptions import AssistantErr
-from AviaxMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from AviaxMusic.utils.inline.play import stream_markup
-from AviaxMusic.utils.stream.autoclear import auto_clean
-from AviaxMusic.utils.thumbnails import gen_thumb
+from ShenheMusic.utils.exceptions import AssistantErr
+from ShenheMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from ShenheMusic.utils.inline.play import stream_markup
+from ShenheMusic.utils.stream.autoclear import auto_clean
+from ShenheMusic.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}

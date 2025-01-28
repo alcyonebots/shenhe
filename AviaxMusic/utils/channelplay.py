@@ -1,5 +1,5 @@
-from AviaxMusic import app
-from AviaxMusic.utils.database import get_cmode
+from ShenheMusic import app
+from ShenheMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

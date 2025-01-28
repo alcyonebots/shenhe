@@ -3,15 +3,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 from pytgcalls.exceptions import GroupCallNotFound
 import config
-from AviaxMusic import app
-from AviaxMusic.misc import db
-from AviaxMusic.core.call import Aviax, autoend, counter
-from AviaxMusic.utils.database import get_client, set_loop, is_active_chat, is_autoend, is_autoleave
+from ShenheMusic import app
+from ShenheMusic.misc import db
+from ShenheMusic.core.call import Aviax, autoend, counter
+from ShenheMusic.utils.database import get_client, set_loop, is_active_chat, is_autoend, is_autoleave
 import logging
 
 async def auto_leave():
     while not await asyncio.sleep(900):
-        from AviaxMusic.core.userbot import assistants
+        from ShenheMusic.core.userbot import assistants
         ender = await is_autoleave()
         if not ender:
             continue

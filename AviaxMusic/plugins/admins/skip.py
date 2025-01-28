@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from AviaxMusic import YouTube, app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.misc import db
-from AviaxMusic.utils.database import get_loop
-from AviaxMusic.utils.decorators import AdminRightsCheck
-from AviaxMusic.utils.inline import close_markup, stream_markup
-from AviaxMusic.utils.stream.autoclear import auto_clean
-from AviaxMusic.utils.thumbnails import gen_thumb
+from ShenheMusic import YouTube, app
+from ShenheMusic.core.call import Aviax
+from ShenheMusic.misc import db
+from ShenheMusic.utils.database import get_loop
+from ShenheMusic.utils.decorators import AdminRightsCheck
+from ShenheMusic.utils.inline import close_markup, stream_markup
+from ShenheMusic.utils.stream.autoclear import auto_clean
+from ShenheMusic.utils.thumbnails import gen_thumb
 from config import BANNED_USERS
 
 

@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.database import add_gban_user, remove_gban_user
-from AviaxMusic.utils.decorators.language import language
-from AviaxMusic.utils.extraction import extract_user
+from ShenheMusic import app
+from ShenheMusic.misc import SUDOERS
+from ShenheMusic.utils.database import add_gban_user, remove_gban_user
+from ShenheMusic.utils.decorators.language import language
+from ShenheMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

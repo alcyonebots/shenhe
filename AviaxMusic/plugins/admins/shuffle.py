@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.misc import db
-from AviaxMusic.utils.decorators import AdminRightsCheck
-from AviaxMusic.utils.inline import close_markup
+from ShenheMusic import app
+from ShenheMusic.misc import db
+from ShenheMusic.utils.decorators import AdminRightsCheck
+from ShenheMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

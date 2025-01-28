@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AviaxMusic import app
-from AviaxMusic.misc import SUDOERS, db
-from AviaxMusic.utils.database import (
+from ShenheMusic import app
+from ShenheMusic.misc import SUDOERS, db
+from ShenheMusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,

@@ -4,8 +4,8 @@ import random
 from PIL import Image
 
 thumbnail_paths = [
-    "AviaxMusic/assets/shenhe.png", 
-    "AviaxMusic/assets/shenhe1.png" 
+    "ShenheMusic/assets/shenhe.png", 
+    "ShenheMusic/assets/shenhe1.png" 
 ]
 
 async def gen_thumb(videoid: str):

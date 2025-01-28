@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.misc import SUDOERS, db
-from AviaxMusic.utils import AdminRightsCheck
-from AviaxMusic.utils.database import is_active_chat, is_nonadmin_chat
-from AviaxMusic.utils.decorators.language import languageCB
-from AviaxMusic.utils.inline import close_markup, speed_markup
+from ShenheMusic import app
+from ShenheMusic.core.call import Aviax
+from ShenheMusic.misc import SUDOERS, db
+from ShenheMusic.utils import AdminRightsCheck
+from ShenheMusic.utils.database import is_active_chat, is_nonadmin_chat
+from ShenheMusic.utils.decorators.language import languageCB
+from ShenheMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

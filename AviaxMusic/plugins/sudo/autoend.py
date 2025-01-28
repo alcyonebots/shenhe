@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.database import autoend_off,autoend_on,autoleave_off, autoleave_on,is_autoend,is_autoleave
+from ShenheMusic import app
+from ShenheMusic.misc import SUDOERS
+from ShenheMusic.utils.database import autoend_off,autoend_on,autoleave_off, autoleave_on,is_autoend,is_autoleave
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)

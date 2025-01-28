@@ -6,10 +6,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from AviaxMusic import app
-from AviaxMusic.misc import _boot_
-from AviaxMusic.plugins.sudo.sudoers import sudoers_list
-from AviaxMusic.utils.database import (
+from ShenheMusic import app
+from ShenheMusic.misc import _boot_
+from ShenheMusic.plugins.sudo.sudoers import sudoers_list
+from ShenheMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -17,10 +17,10 @@ from AviaxMusic.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from AviaxMusic.utils import bot_sys_stats
-from AviaxMusic.utils.decorators.language import LanguageStart
-from AviaxMusic.utils.formatters import get_readable_time
-from AviaxMusic.utils.inline import help_pannel, private_panel, start_panel
+from ShenheMusic.utils import bot_sys_stats
+from ShenheMusic.utils.decorators.language import LanguageStart
+from ShenheMusic.utils.formatters import get_readable_time
+from ShenheMusic.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 

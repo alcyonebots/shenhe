@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from AviaxMusic import app
-from AviaxMusic.core.userbot import assistants
-from AviaxMusic.misc import SUDOERS, mongodb
-from AviaxMusic.plugins import ALL_MODULES
-from AviaxMusic.utils.database import get_served_chats, get_served_users, get_sudoers,is_autoend,is_autoleave
-from AviaxMusic.utils.decorators.language import language, languageCB
-from AviaxMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from ShenheMusic import app
+from ShenheMusic.core.userbot import assistants
+from ShenheMusic.misc import SUDOERS, mongodb
+from ShenheMusic.plugins import ALL_MODULES
+from ShenheMusic.utils.database import get_served_chats, get_served_users, get_sudoers,is_autoend,is_autoleave
+from ShenheMusic.utils.decorators.language import language, languageCB
+from ShenheMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 

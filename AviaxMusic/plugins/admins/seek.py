@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import YouTube, app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.misc import db
-from AviaxMusic.utils import AdminRightsCheck, seconds_to_min
-from AviaxMusic.utils.inline import close_markup
+from ShenheMusic import YouTube, app
+from ShenheMusic.core.call import Aviax
+from ShenheMusic.misc import db
+from ShenheMusic.utils import AdminRightsCheck, seconds_to_min
+from ShenheMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
