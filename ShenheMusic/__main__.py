@@ -50,7 +50,7 @@ async def init():
         pass
     await Aviax.decorators()
     LOGGER("ShenheMusic").info(
-        "Shenhe Music Started Successfully.\n\nDon't forget to visit @Alcyone_Bot"
+        "Shenhe Music Started Successfully.\n\nDon't forget to visit @Alcyone_Bots"
     )
     await idle()
     await app.stop()
